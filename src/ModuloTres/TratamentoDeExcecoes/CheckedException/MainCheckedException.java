@@ -4,7 +4,7 @@ import javax.swing.*;
 import java.io.*;
 
 public class MainCheckedException {
-    public static void main(String[] args) throws IOException {
+    public static void main(String[] args) {
         String nomeDoArquivo = "romance-blake-crouch.txt";
 
         try {
