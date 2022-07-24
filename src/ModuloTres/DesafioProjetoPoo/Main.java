@@ -1,5 +1,6 @@
 package ModuloTres.DesafioProjetoPoo;
 
+import ModuloTres.DesafioProjetoPoo.Dominio.Conteudo;
 import ModuloTres.DesafioProjetoPoo.Dominio.Curso;
 import ModuloTres.DesafioProjetoPoo.Dominio.Mentoria;
 
@@ -22,6 +23,9 @@ public class Main {
         mentoria1.setTitulo("Mentoria Java");
         mentoria1.setDescricao("Descrição Mentoria Java");
         mentoria1.setData(LocalDate.now());
+
+        Conteudo conteudo1 = new Curso();
+        Conteudo conteudo2 = new Mentoria();
 
         System.out.println(curso1);
         System.out.println(curso2);
